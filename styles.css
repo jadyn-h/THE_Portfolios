@@ -1,0 +1,71 @@
+* {
+    font-family: 'Normal', Helvetica, sans-serif;
+    background-color: rgb(7, 48, 7);
+    /* cursor: url('/img/mice/mouse_point.png'), auto;  */
+}
+
+a { text-decoration: none; color: aliceblue; }
+a:hover{ text-decoration: dotted; color: rgb(215, 217, 255); }
+
+
+.masthead{
+    position: inherit;
+    display: flex;
+    width: 100vw;
+    height: 200px;
+
+    justify-content: left;
+    align-items: end;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-items: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.arrow-key-navigation{
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    justify-items: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.arrow-key-navigation section nav{
+
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-items: center;
+    margin-left: 20%;
+    margin-right: 20%;
+
+    max-width: 500px;
+}
+
+/* .arrow-key-navigation section nav a{
+
+} */
+
+.header-link{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    padding: 10%;
+
+}
+
+.body-link{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    padding: 10%;
+
+}
+
+.resize-medium{
+    height: 20%;
+}
