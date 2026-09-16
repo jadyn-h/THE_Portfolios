@@ -50,13 +50,13 @@
 }
 
 @keyframes shinyText {
-  0% {
+  25% {
     color:#f8f6f6;
   }
   50% {
-    color:#bfcfff; 
+    color:#d7dfe3; 
   }
-  100% {
+  75% {
     color:#f8f6f6;
   }
 }
@@ -125,6 +125,8 @@ a:hover::after{
 
 .key-navigation section nav{
 
+    -webkit-text-stroke: 0.5px #92525252;
+
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -159,6 +161,7 @@ a:hover::after{
 }
 
 footer{
+    text-shadow: 0px 4px 4.5px rgba(13, 14, 37, 0.301);
     text-align: center;
     color: #f8f6f6;
 }
