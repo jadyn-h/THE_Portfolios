@@ -1,7 +1,8 @@
 * {
     font-family: 'Normal', Helvetica, sans-serif;
 
-    background-image: url(img/Background.png);
+    /* background-image: url(img/Background.png); */
+    background-color: rgb(83, 5, 36);
     background-repeat: no-repeat; 
     background-size: cover; 
     background-position: center; 
@@ -11,20 +12,32 @@
     /* cursor: url('/img/mice/mouse_point.png'), auto;  */
 }
 
-a { text-decoration: none; color: aliceblue; }
-a:hover{ text-decoration: dotted; color: rgb(215, 217, 255); }
+a { text-decoration: none; color: aliceblue; transition: 0.4s;}
+a:hover{ font-size: 35px ; color: rgb(215, 217, 255); transition: 0.9s; }
 
 .masthead{
-    position: inherit;
     display: flex;
+    position: inherit;
     height: 200px;
 
-    padding-left: 100px;
-    padding-top: 50px;
+    padding-left: 280px;
+    padding-top: 100px;
 
     justify-content: left;
-    align-items: flex-end;
+    flex-direction: row;
+    align-items: flex-start;
 }
+.masthead-text{
+    font-size: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.masthead-text h1{ margin: 0; font-family: 'Times New Roman', Times, serif; color: aliceblue;}
+.masthead-text h2{ margin: 0; margin-bottom: 100px; font-family: Georgia, 'Times New Roman', Times, serif; color: aliceblue}
 
 .main{
     display: flex;
@@ -44,7 +57,11 @@ a:hover{ text-decoration: dotted; color: rgb(215, 217, 255); }
     align-items: center;
     justify-content: center; 
     
-    margin: 5vw auto;        
+    margin: 5vw auto;    
+    padding: 10px; 
+    padding-bottom: 100px;   
+    gap: 100px;
+
     
 }
 
@@ -52,11 +69,12 @@ a:hover{ text-decoration: dotted; color: rgb(215, 217, 255); }
 
     display: flex;
     flex-direction: column;
-    align-items: center
+    align-items: flex-start
 
 }
 
-
+.key-navigation section nav a { text-decoration: none; color: aliceblue; transition: 0.4s;}
+.key-navigation section nav a:hover{ font-size: 28px ; color: rgb(215, 217, 255); transition: 0.9s; }
 
 /* .arrow-key-navigation section nav a{
 
@@ -77,6 +95,10 @@ a:hover{ text-decoration: dotted; color: rgb(215, 217, 255); }
 
 }
 
-.resize-medium{
+.resize-img{
     height: 20%;
+}
+
+footer {
+    font-color: rgb(191, 191, 191);
 }
