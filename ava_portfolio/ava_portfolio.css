@@ -1,4 +1,80 @@
 * {
-    background-color: #101B19
+    font-family: 'Comic', Helvetica, sans-serif;
+}
+
+@font-face {
+    font-family: 'Comic';
+    src: url(/fonts/animeace2bb_tt/animeace2_bld.ttf);
+}
+
+body {
+    background-color: #101B19;
+}
+
+main {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+.background-room {
+    position: absolute;
+    transform: scale(2);
+}
+
+.about-me-button {
+
+    padding: 12px 24px;      
+    font-size: 16px;           
+    font-weight: bold;         
+
+    background-color: #b2d0f0; 
+    color: #FFFFFF;            
+    border: none;               
+    border-radius: 6px;        
+
+    transform: scale(1.0);
+    cursor: pointer;         
+    box-shadow: #101b1972;  
+    transition: all 0.3s ease;
+}
+
+.about-me-button:hover {
+    background-color: #0056b3; 
+    transform: scale(1.15);
+}
+
+footer {
+    font-size: large;
+    text-shadow: 0px 4px 4.5px rgba(13, 14, 37, 0.301);
+    text-align: center;
+    color: #f8f6f6;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.exit-box {
+
+    width: 200px;
+    height: 30px;
+
+    text-align: left;
+    border: 5px solid #101418;
+    padding: 10px 30px;
+
+    text-decoration: none;
+    color: #101418;
+    background-color: #edf779;
+    text-shadow: 0px 0px 0px rgba(13, 14, 37, 0);
 
 }
