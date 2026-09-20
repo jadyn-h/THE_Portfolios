@@ -1,4 +1,106 @@
 * {
-    background-color: #101B19
+    font-family: 'Comic', Helvetica, sans-serif;
+    text-decoration: none;
 
+}
+
+@font-face {
+    font-family: 'Comic';
+    src: url(/fonts/animeace2bb_tt/animeace2_bld.ttf);
+}
+
+body {
+    background-color: #101B19;
+}
+
+main {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+.background-room {
+    position: absolute;
+    transform: scale(2);
+}
+
+.about-me-button {
+
+    padding: 12px 24px;      
+    font-size: 16px;           
+    background-color: #00000000;
+
+    border: none;               
+    border-radius: 6px;        
+
+    transform: scale(1.0);
+    cursor: pointer;         
+    transition: all 0.3s ease;
+}
+
+.about-me-button:hover {
+    transform: scale(1.15);
+}
+
+footer {
+    font-size: large;
+    text-shadow: 0px 4px 4.5px rgba(13, 14, 37, 0.301);
+    text-align: center;
+    color: #f8f6f6;
+
+    padding: 10px 20px;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+footer a {
+    color: #f8f6f6;
+    font-size: large;
+    text-decoration: none; /* Removes the default browser underline */
+}
+
+.ui {
+    pointer-events: none;
+    z-index: 10000;
+    position: fixed;
+    display: flex;
+
+    width: 100vw;
+    height: 100vh;
+
+    text-decoration: none;
+
+    justify-content: flex-end;
+
+}
+
+.back-button {
+    pointer-events: auto;
+    align-content: end;
+    margin: 25px 25px;
+    margin-left: auto;
+}
+
+.exit-box {
+    width: 200px;
+    height: 30px;
+
+    text-align: left;
+    border: 5px solid #101418;
+    padding: 10px 30px;
+
+    text-decoration: none;
+    color: #101418;
+    background-color: #edf779;
+    text-shadow: 0px 0px 0px rgba(13, 14, 37, 0);
 }
