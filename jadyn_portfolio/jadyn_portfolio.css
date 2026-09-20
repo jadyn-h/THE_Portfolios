@@ -3,8 +3,31 @@
     background-color: #FEFBEA;
 }
 
-.alex-brush-regular {
-    font-family: "Alex Brush", cursive;
+.alex-brush-regular{
+    font-family: 'Alex Brush', cursive;
     font-weight: 400;
     font-style: normal;
+    src: url(../fonts/AlexBrush/AlexBrush-Regular.ttf);
+}
+
+@font-face{
+    font-family: 'Handwriting';
+    src: url(../fonts/Caveat/Caveat-Regular.ttf);
+}
+heading{
+    justify-content: center;
+}
+bio{
+    justify-content: right;
+    display: flex;
+    align-content: right;
+}
+h1{
+    font-family: 'Alex Brush';
+    margin: 5px auto;
+}
+
+p{
+    font-family: 'Handwriting';
+    font-size: 45px; 
 }
