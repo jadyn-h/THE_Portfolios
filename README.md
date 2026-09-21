@@ -29,4 +29,8 @@ Ava's Plan:
 Jadyn's Plan:
 <img width="607" height="230" alt="Screenshot 2026-09-20 at 11 38 40 PM" src="https://github.com/user-attachments/assets/7dabc9e4-d3db-4cbe-bc32-43e54348e999" />
 
+We used the link below to find some images to use as placeholders.
+
+[https://www.istockphoto.com/illustrations/blank-profile-picture](url)
+
 Thank you for reading!
