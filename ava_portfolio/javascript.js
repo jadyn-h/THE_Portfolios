@@ -1,23 +1,49 @@
-const aboutMe = document.getElementsByClassName('about-me-button')[0];
-const panel = document.getElementsByClassName('panel')[0];
+const aboutMe = document.querySelector('.about-me-button');
+const skillset = document.querySelector('.skillset-button');
+const projects = document.querySelector('.projects-button');
+
+const panel = document.querySelector('.panel');
 
 const panel_1 = document.getElementById('panel-1');
 const panel_2 = document.getElementById('panel-2');
 const panel_3 = document.getElementById('panel-3');
 
 
-document.addEventListener("DOMContentLoaded", () => {
-    panel.classList.add('hide'); 
-});
+const seconds = 1 * 1000;
+
+// document.addEventListener("DOMContentLoaded", () => {
+//    panel.classList.toggle('hide'); 
+// });
 
 aboutMe.addEventListener('click', ()=>{
     panel.classList.remove('hide'); 
 
-    const seconds = 2 *1000;
     panelUnveiling(seconds);
 
     setTimeout(function() {
-        window.location.assign("ava_portfolio/about_me/ava_about_me.html");
+        window.location.assign("/ava_portfolio/about_me/ava_about_me.html");
+    }, seconds *4);
+
+});
+
+projects.addEventListener('click', ()=>{
+    panel.classList.remove('hide'); 
+
+    panelUnveiling(seconds);
+
+    setTimeout(function() {
+        window.location.assign("/ava_portfolio/projects/ava_projects.html");
+    }, seconds *4);
+
+});
+
+skillset.addEventListener('click', ()=>{
+    panel.classList.remove('hide'); 
+
+    panelUnveiling(seconds);
+
+    setTimeout(function() {
+        window.location.assign("/ava_portfolio/skillset/ava_skillset.html");
     }, seconds *4);
 
 });
