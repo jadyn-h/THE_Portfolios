@@ -11,6 +11,19 @@ const panel_3 = document.getElementById('panel-3');
 
 const seconds = 1 * 1000;
 
+const music = document.getElementById('bg-music');
+
+music.volume = 0.2; // 0 to 1
+
+let musicStarted = false;
+
+document.body.addEventListener('click', () => {
+  if (!musicStarted) {
+    music.play();
+    musicStarted = true;
+  }
+});
+
 // document.addEventListener("DOMContentLoaded", () => {
 //    panel.classList.toggle('hide'); 
 // });

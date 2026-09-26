@@ -11,7 +11,7 @@
 main{
     display: flex;
     flex-direction: column;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
     height: 100vh;
 
@@ -22,13 +22,7 @@ main{
 }
 
 body{
-    background-color: #0a0000;
-    color: #fdfdfd;
-}
-
-.text{
-    margin-top: 100px;
-    text-align: center;
+    background-color: #f6f2f2;
 }
 
 .ui{
